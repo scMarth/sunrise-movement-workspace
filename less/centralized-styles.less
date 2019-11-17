@@ -1,0 +1,34 @@
+// Style Guide v.2 definitions
+
+// primary colors that are always used
+@primary-yellow: #FFDE16;
+@primary-gray: #33342E;
+// secondary colors
+@secondary-light-green: #E3EDDF;
+@secondary-orange: #FD9014;
+@secondary-purple: #8F0D56;
+@secondary-red: #EF4C39;
+
+@font-dir: "../../fonts/source-sans-pro/";
+@regular-font-filename: "SourceSansPro-Regular.otf";
+@bold-font-filename: "SourceSansPro-Bold.otf";
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("@{font-dir}@{regular-font-filename}") format("opentype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    src: url("@{font-dir}@{bold-font-filename}") format("opentype");
+}
+
+.headline-text {
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+}
+
+.body-text {
+    font-family: "Source Sans Pro";
+}
